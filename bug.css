@@ -1,0 +1,1 @@
+The CSS property `content` is used with the `::before` and `::after` pseudo-elements to insert generated content.  However, if you use `content` with a value that is too complex or contains unexpected characters, it might lead to unexpected rendering or even browser errors. This is especially true when working with Unicode characters or dynamic content generated from JavaScript.
