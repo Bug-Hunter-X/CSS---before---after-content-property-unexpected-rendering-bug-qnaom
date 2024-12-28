@@ -1,0 +1,12 @@
+/* solution.css */
+
+/* Instead of complex strings, use simpler, well-formed values */
+.element::before {
+  content: "Start"; /* Simple, clear content */
+}
+
+.element::after {
+  content: "End"; /* Simple, clear content */
+}
+
+/* If dynamic content is necessary, ensure proper escaping and validation before setting content */
